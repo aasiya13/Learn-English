@@ -1,0 +1,137 @@
+
+.head h1{
+
+  color:6666ff;
+  font-family: Stencil Std,sans-serif;
+  font-size: 50px;
+  display: inline;
+}
+
+.head .moto{
+  position: absolute;
+  top:60px;
+  left: 120px;
+  font-family: Segoe Print,serif;;
+}
+
+.head .btn{
+  position: absolute;
+  margin: auto;
+  z-index: 1;
+  top: 30px;
+  right: 25px;
+  font-size: 16px;
+  font-family: Swis721 Hv BT, sans-serif;
+
+}
+
+.btn a:link, .btn a:visited {
+    background-color:  #6666ff;
+    color: white;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+
+.btn a:hover, .btn a:active {
+    background-color: #cccccc
+}
+
+
+
+.middle1{
+  position:static;
+}
+/*Get started button*/
+.middle1 .butt{
+  position: absolute;
+  margin: auto;
+  z-index: 1;
+  top: 450px;
+  right: 540px;
+  font-size: 25px;
+  font-family: Swis721 Hv BT, sans-serif;
+
+}
+
+.butt a:link, .butt a:visited {
+    background-color:  #6666ff;
+    color: white;
+    padding: 18px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+
+.butt a:hover, .butt a:active {
+    background-color: #cccccc
+}
+
+/* Qoutes */
+.qot1 {
+  display: inline-block;
+    position: relative;
+    margin: 50px;
+    border: 2px solid blue;
+    padding: 20px;
+    background-color: f1f1f1;
+    border-radius: 6px;
+    font-size: 16px;
+    left: auto;
+    float: left;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+.qot2 {
+    display: inline-block;
+    position: static;
+    float: left;
+    height: 215px;
+    margin: 50px;
+    border: 2px solid blue;
+    padding: 20px;
+    background-color: f1f1f1;
+    border-radius: 6px;
+    font-size: 16px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+.qot3 {
+    display: inline-block;
+    position: static;
+    margin: 50px;
+    border: 2px solid blue;
+    height: 215px;
+    padding: 20px;
+    background-color: f1f1f1;
+    border-radius: 6px;
+    font-size: 16px;
+    right:auto;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+.state{
+  position: relative;
+  display: inline;
+  margin: auto;
+  left: 10px;
+  top: 10px;
+}
+
+.bottom {
+  background-color:	#17141f;
+  color:white;
+  text-align: center;
+  padding: 5px;
+}
+
+.middle3{
+  background-color: #ccccff;
+  padding: 5px;
+  margin-top: 45px;
+}
